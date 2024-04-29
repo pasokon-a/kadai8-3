@@ -1,0 +1,148 @@
+@charset "UTF-8";
+body{
+    font-family: 'Arial',sans-serif;
+    font-size: 16px;
+    color: #555555;
+}
+.innerWrap {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 20px;
+}
+header .innerWrap {
+    height: 80px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+header {
+ background-color: #EFA358;
+ height: 80px;
+}
+h1 {
+    font-size: 28px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-left: 4px;  
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+li {
+    margin-right: 20px;
+}
+a {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.imgImezi img {
+    width: 100%;
+}
+article {
+    margin-bottom: 26px;
+}
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0 42px;
+}
+.featureFlex {
+    display: flex;
+    justify-content: space-between;
+}
+section p img {
+    width: 480px;
+    height: 329px;
+}
+section .featureItem {
+    margin-right: 44px;
+    height: auto;
+}
+h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+section .featureItem p {
+    margin-bottom: 30px;
+}
+section .featureItem button {
+    color: #FFFFFF;
+    background-color: #EFA358;
+    padding: 15px 55px 15px 56px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    margin-bottom: 98px;
+}
+footer {
+    background-color: #EFA358;
+    height: 100px;
+}
+footer .innerWrap {
+    text-align: center;
+}
+footer p {
+    margin-bottom: 20px;
+}
+.footerLogo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 19px;
+}
+footer small {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+/* パソコン */
+@media screen and (min-width:1025px) and (max-width:1480px){
+
+}
+
+/* タブレット */
+@media screen and (min-width:481px) and (max-width:1024px){
+    .innerWrap {
+        width: 100%;
+    }
+    img {
+        height: auto;
+    }
+    .featureFlex {
+       display: block;;
+    }
+    section p img {
+       max-width: 100%;
+       padding-right: 20px;
+    }
+    article {
+       text-align: center;
+    }
+    section .featureItem {
+       margin-top: 30px;
+    }
+}
+ @media screen and (max-width:480px) {
+    .innerWrap {
+        width: 100%;
+    }
+    img {
+        height: auto;
+    }
+    .featureFlex {
+       display: block;;
+    }
+    section p img {
+       max-width: 100%;
+       padding-right: 20px;
+    }
+    article {
+       text-align: center;
+    }
+    section .featureItem {
+       margin-top: 30px;
+    }
+ }
